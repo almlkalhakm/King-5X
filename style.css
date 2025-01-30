@@ -1,0 +1,968 @@
+/*فرع الالوان*/
+h1 {
+    color: blue;
+    text-align: center;
+}
+p {
+    color: red; /* هذه الخاصية تجعل لون النص أحمر */
+}
+
+p ,.qqqw {
+    color: #000066;
+    text-align: center;
+}
+
+.center {
+    color: red;
+    text-align: center;
+}
+#demo {
+    color: blue;
+    text-align: center;
+}
+* {
+    color: #CC9999;
+    text-align: center;
+}
+.color7{
+    color: #0000FF;
+    text-align: center;
+}
+.color {
+    color: #FF33FF;
+    text-align: center;
+}
+.color2 {
+    color: #000099;
+    text-align: center;
+}
+.color5 {
+    color: #FFFFFF;
+    text-align: center;
+}
+.color3{
+    color: #CC0033;
+    text-align: center;
+}
+textarea {
+    color: #FF33FF;
+    text-align: center;
+}
+.color6{
+    color: #669999;
+    text-align: center;
+}
+.color1,#qwe ,article > p {
+    color: red;
+}
+span, b , h1 {
+    color: #9999CC;
+}
+/* أي فقرة موضوعة في الصفحة ستظهر بلون أحمر */
+p {
+    color: red;
+}
+h4,.color4 {
+    color: #666666;
+    text-align: center;
+}
+body {
+  color: lightblue;
+  }
+h1 {
+    background-color: blue;
+}
+
+h1.first {
+    opacity: 0.8;
+}
+            
+h1.second {
+    opacity: 0.5;
+}
+            
+h1.third {
+    opacity: 0.2;
+}
+
+audio {
+    background-color: blue;
+}
+body ,.outset , input ,textarea{
+    background-color: #333333;
+}
+            * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial;
+    counter-reset: section;
+    }
+    body {
+    counter-reset: section;
+    }
+    
+h1 {
+    background-color: burlywood;
+}
+            
+p {
+    background-color: darkgray;
+}
+
+h1 {
+    background-color: rgba(0, 0, 255, 1);
+}
+.color7{
+    color: #;
+    text-align: center;
+}
+h1.first {
+    background-color: rgba(0, 0, 255, 0.8);
+}
+            
+h1.second {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+            
+h1.third {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+/*انتهاء فرع الالوان*/
+/*فرع الخلفيات والصور*/
+body {
+    background-image: url('');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+}
+.img0, {
+    background-image: url('h0');
+    background-repeat: repeat-x;
+}
+
+.vbn,legend {
+    background-image: url('h');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+}
+.img {
+    background-image: url('٢');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    }
+.img1 {
+    background-image: url('g');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    }
+.img2   {
+    background-image: url('h');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    
+.dotted { 
+    border-style: dotted;
+}
+}
+.img3   {
+    background-image: url('hhg.jpg');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    
+.dotted { 
+    border-style: dotted;
+}
+}
+/*انتهاء فرع الخلفيات والصور*/
+.dashed {
+    border-style: dashed;
+}
+
+.solid {
+    border-style: solid;
+}
+
+.double {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove
+}
+
+.ridge {
+    border-style: ridge;
+}
+
+.inset {
+    border-style: inset;
+}
+
+.outset {
+    border-style: outset;
+}
+
+.none {
+    border-style: none;
+}
+
+.hidden {
+    border-style: hidden;
+}
+.vbn {
+    border-style: solid double dotted none;
+}
+.one {
+    border-style: double;
+    border-width: 3px;
+}
+
+.two {
+    border-style: solid;
+    border-width: medium;
+}
+
+.three {
+    border-style: dotted;
+    border-width: thick;
+}
+.mix {
+    border-style: solid;
+    border-width: 5px 2px;
+}
+.mix {
+    border-style: solid;
+    border-width: 3px 2px 1px;
+}
+.demo {
+    /* خصائص الحدود العلوية */
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: blue;
+    
+    /* خصائص الحدود السفلية */
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: blue;
+    
+    /* خصائص الحدود جهة اليمين */
+    border-right-style: double;
+    border-right-width: 10px;
+    border-right-color: orange;
+    
+    /* خصائص الحدود جهة اليسار */
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: orange;
+}
+.vbn {
+    border: 3px solid Yellow;
+    border-top-left-radius: 20px;
+      
+}
+.vbn {
+    border: 3px solid green;
+    border-bottom-right-radius: 20px;
+}
+.vbn {
+    border: 3px solid red;
+    border-top-left-radius: 20px;
+}
+.vbn {
+    border: 3px solid red;
+    border-top-right-radius: 20px;
+}
+.vbn {
+    border: 3px solid red;
+    border-bottom-left-radius: 20px;
+}
+.vbn {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid gray;
+}
+div , .hgf   {
+/* تحديد حجم الهامش الداخلي من كل الجوانب مثال*/
+    padding: 20px;
+    /*إذا قمت بتمرير قيمتين للخاصية padding سيحدث التالي:
+
+القيمة الأولى ستمثل حجم الهامش الداخلي جهتي الأعلى و الأسفل.
+القيمة الثانية ستمثل حجم الهامش الداخلي جهتي اليمين و اليسار
+مثال*/
+    padding: 20px 20px;
+    /*إذا قمت بتمرير ثلاث قيم للخاصية padding سيحدث التالي:
+
+القيمة الأولى ستمثل حجم الهامش الداخلي في الأعلى.
+القيمة الثانية ستمثل حجم الهامش الداخلي جهتي اليمين و اليسار.
+القيمة الثالثة ستمثل حجم الهامش الداخلي في الأسفل.*/
+    padding: 20px 25px 30px;
+    
+    /*إذا قمت بتمرير أربع قيم للخاصية padding سيحدث التالي:
+
+القيمة الأولى ستمثل حجم الهامش الداخلي في الأعلى.
+القيمة الثانية ستمثل حجم الهامش الداخلي جهة اليمين.
+القيمة الثالثة ستمثل حجم الهامش الداخلي في الأسفل.
+القيمة الرابعة ستمثل حجم الهامش الداخلي جهة اليسار.*/
+    padding: 20px 15px 10px 6px;
+    
+   /* [إزالة الهامش الداخلي للعنصر
+إذا أردت إزالة الهامش للعنصر من جهة محددة، يمكنك وضع قيمة الهامش الخاصة به تساوي 0.
+
+في المثال التالي قمنا بإزالة الهامش الداخلي من كل الجهات.
+
+مثال
+div {
+    padding: 0;
+}]*/
+    /*[في المثال التالي قمنا بإضافة هامش داخلي في أعلى و أسفل العنصر بمقدار 20 بيكسل و قمنا بإزالة أي هامش من الجانبين الأيمن و الأيسر.
+
+مثال
+div {
+    padding: 20px 0;
+}]*/
+    
+    border: 3px solid red;
+    border-top-right-radius: 15px;
+    border: 3px solid red;
+    border-top-left-radius: 15px;
+    border: 3px solid red;
+    border-bottom-left-radius: 15px;
+    border: 3px solid green;
+    border-bottom-right-radius: 15px;
+    
+    /*رؤية تأثير الهامش الخارجي
+لملاحظة كم تبعد العناصر عن بعضها البعض يمكنك إظهار حدودها ( Border ).
+
+في المثال التالي قمنا بإضافة حدود و هامش خارجي للعنصر الذي يملك الكلاس*/
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    
+    /*إضافة هامش بالسالب
+قيمة الهامش الخارجي يمكن وضعها بالسالب مثل -20px أو -50% و هذا الأمر يجعل الهامش يطبّق بشكل عكسي، حيث يصبح العنصر يقترب من العناصر الأخرى بعد الإبتعاد عنها.
+
+في المثال التالي قمنا بإضافة هامش علوي بالسالب لجعل العنصر يتراجع للأعلى بنسبة 30 بكسل*/
+    margin-top: -0px;
+
+
+    
+}
+/*تحديد الهامش الخارجي من كل الجهات بسطر واحد
+بواسطة الخاصة margin يمكنك تحديد حجم الهامش الخارجي من كل الجوانب. و هنا نود الإشارة إلى أنه على حسب عدد القيم التي تمررها لهذه الخاصية فإنه سيتم تحديد أي جهة سيتم إضافة الهامش فيها و هذا الأمر ستراه بدقة في الأمثلة التالية.
+
+في المثال التالي قمنا بإضافة هامش داخلي للعنصر بمقدار 30 بكسل من كل الجوانب*/
+div {
+/*إذا قمت بتمرير قيمتين للخاصية margin سيحدث التالي:
+
+القيمة الأولى ستمثل حجم الهامش الخارجي جهتي الأعلى و الأسفل.
+القيمة الثانية ستمثل حجم الهامش الخارجي جهتي اليمين و اليسار.
+مثال
+div {
+    margin: 20px 15px;
+}*/
+    margin: 30px;
+    /*إذا قمت بتمرير ثلاث قيم للخاصية margin سيحدث التالي:
+
+القيمة الأولى ستمثل حجم الهامش الخارجي في الأعلى.
+القيمة الثانية ستمثل حجم الهامش الخارجي جهتي اليمين و اليسار.
+القيمة الثالثة ستمثل حجم الهامش الخارجي في الأسفل.
+مثال
+div {
+    margin: 20px 15px 10px;
+}*/
+/*إذا قمت بتمرير أربع قيم للخاصية margin سيحدث التالي:
+
+القيمة الأولى ستمثل حجم الهامش الخارجي في الأعلى.
+القيمة الثانية ستمثل حجم الهامش الخارجي جهة اليمين.
+القيمة الثالثة ستمثل حجم الهامش الخارجي في الأسفل.
+القيمة الرابعة ستمثل حجم الهامش الخارجي جهة اليسار.
+مثال
+div {
+    margin: 20px 15px 10px 5px;
+}*/
+/*إزالة الهامش الخارجي للعنصر
+إذا أردت إزالة الهامش للعنصر من جهة محددة، يمكنك وضع قيمة الهامش الخاصة به تساوي 0.
+
+في المثال التالي قمنا بإزالة الهامش الخارجي الإفتراضي للعنصر <p>من كل الجهات، و هذا يعني أنه في حال وضع إثنين وراء بعض سيظهران ملتصقان ببعضهما.
+
+مثال
+p {
+    margin: 0;
+}*/
+/*إذا جعلت قيمة الهامش الخارجي تساوي 0 أو 0% أو 0px إلخ.. فكلها تعني صفر و هنا يفهم المتصفح أنك لا تريد عرض أي هامش*/
+/*مفهوم دمج الهوامش الخارجية للعناصر
+الهامش الخارجي للعنصر فكرته أن يكون العنصر بعيد عن العنصر الآخر بالمقدار الذي تم وضعه.
+
+الهوامش الخارجية الموجودة بين العناصر من جهة الأعلى و الأسفل يقوم المتصفح بدمج بشكل تلقائي لكي يجعل طول الصفحة أقل و هذا الأمر يسمى Margin Collapse.
+
+في المثال التالي سيتم العنصر الأعلى يملك هامش خارجي من الأسفل بمقدار 30 بكسل و العنصر الأسفل يملك هامش خارجي من الأعلى بمقدار 30 بكسل الأمر الذي جعل المتصفح يقوم بدمج هذا الهامش كهامش واحد بمقدار 30 بكسل لأن هذه المسافة القصوى التي يتطلبها إبعاد العنصرين عن بعضمها.
+
+مثال
+.one {
+    margin-bottom: 30px;
+}
+
+.two {
+    margin-top: 30px;
+}*/
+}
+.centrar {
+    margin: 20px 15px 10px 50px;
+}
+.seccion {
+margin: 0 auto;
+max-width: 80%;
+padding: 1em 1em 1em 1em;
+/*توسيط العناصر بواسطة الهامش الخارجي
+توسيط العنصر سواء بالنسبة للصفحة أو بالنسبة للعنصر الخارجي الموضوع فيه ممكن في حال كان للعنصر طول و عرض محدد.
+
+
+توسيط العنصر أفقياً
+في المثال التالي قمنا بتحديد عرض العنصر بواسطة الخاصية width و من بعدها أضفنا له الخاصية margin:auto; لكي يظهر في وسط الصفحة أفقياً.
+
+مثال
+div {
+    width: 250px;
+    margin: auto;
+}*/
+    width: 350px;
+    margin: auto;
+}
+.seccionf {
+margin: 0 auto;
+max-width: 80%;
+padding: 1em 1em 1em 1em;
+/*اضف الوسم */{
+/*توسيط العنصر أفقياً و عمودياً
+في المثال التالي قمنا بجعل العنصر <body> يتمدد على كامل حجم الصفحة بواسطة أسلوب العرض Flex و من ثم أضفنا للوسم <div> الخاصية margin:auto; لكي يظهر في وسط الصفحة تماماً أفقياً و عمودياً.
+
+مثال
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+div {
+    margin: auto;
+}*/
+    display: flex;
+    min-height: 0vh;
+    align-items: center;
+}
+/*في المثال السابق كان بإمكانك كتابة display: grid; بدل display: flex; و الحصول على ذات النتيجة.
+
+عرض محتوى الصفحة بأسلوب Flex و Grid أمر مهم جداً و سنشرحه لك بالتفصيل في دروس لاحقة لذا لا تشغل بالك بالكود الذي كتبناه في آخر مثال، يكفي أن تعرف أنه يوجد حيل كثيرة في CSS تسمح لك بعرض المحتوى بالشكل الذي تريده.*/
+div {
+    margin: auto;
+}
+button {
+/*في المثال التالي قمنا بجعل الوسم <button> يعتمد أسلوب block حتى يظهر لوحده على السطر.
+
+مثال
+button {
+    display: block;
+}*/
+    display: block;
+}
+div {
+/*في المثال التالي قمنا بجعل الوسم <div> يعتمد أسلوب inline-block حتى لا يظهر على سطر لوحده.
+
+مثال
+div {
+    display: inline-block;
+}*/
+    display: inline-block;
+}
+harmash {
+/*الظهور الإفتراضي للعناصر الجديدة
+أي عنصر جديد تقوم بتعريفه بنفسك يستخدم أسلوب inline بشكل تلقائي ما لم تقم أنت بالتلاعب بطريقة ظهوره.
+
+في المثال التالي قمنا بإضافة وسم جديد إسمه <harmash> الذي يعتمد أسلوب inline للظهور في الصفحة.
+جعلنا الوسم <harmash> يظهر بلون أحمر و أضفنا له margin و padding و border من كل الجهات.
+
+أثناء تجربة المثال قم بتغيير قيمة الخاصية display من inline إلى inline-block و من ثم إلى block حتى ترى الفرق.*/
+
+    display: inline;
+    color: red;
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid red;
+}
+h {
+/*أساليب إخفاء العناصر
+يوجد أسولبين أساسيين لإخفاء العناصر هما:
+
+display: none هذا الأسلوب يزيل العنصر تماماً من الصفحة و كأنه لم يعد موجود فيها.
+visibility: hidden هذا الأسلوب يخفي العنصر من الصفحة و لكن مكانه يظل محجوز فيها.
+
+في المثال التالي قمنا بإخفاء العنوان تماماً من الصفحة بواسطة الخاصية display: none.
+
+مثال
+h1 {
+    display: none;
+}*/
+    display: none;
+}
+h1 {
+/*في المثال التالي قمنا بإخفاء العنوان من الصفحة مع حفظ مكانه فيها بواسطة الخاصية visibility: hidden.
+
+مثال
+h1 {
+    visibility: hidden;
+}*/
+    visibility: hidden;
+}
+الوسم {
+/*تحديد العرض و الطول
+في المثال التالي قمنا بجعل عرض العنصر 50% و طوله 100 بكسل.
+
+مثال
+div {
+    height: 100px;
+    width: 50%;
+    background-color: lightblue;
+}*/
+    height: 0px;
+    width: 0%;
+    background-color: lightblue;
+}
+button {
+/*في المثال التالي قمنا بجعل عرض العنصر 100% و أبعدناه عن العناصر الموجودة تحته بواسطة الخاصية margin-bottom.
+
+مثال
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}*/
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+img {
+/*في المثال التالي قمنا بجعل عرض الصورة الأقصى هو 500 بكسل و جعلنا عرضها الثابت 100%.
+بهذا الأسلوب نحن نقصد أن حجم سيحاول الظهور بأكبر عرض ممكن و لكنه لن يزيد عن 500 بكسل و بالتالي في حال كان عرض الشاشة أقل من 500 بكسل فإنها ستظهر على كامل عرضها.*/
+    display: block;
+    width: 100%;
+    max-width: 500px;
+}
+img {
+/*الحجم و الحدود المائلة
+عند تحديد حجم العناصر يمكنك ضمان ظهوره بشكل مربع، مستطيل أو دائرة.
+
+في المثال التالي جعلنا الصورة تظهر بشكل دائري.
+
+مثال
+img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 3px solid gray;
+    border-radius: 100%;
+}*/
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 3px solid gray;
+    border-radius: 100%;
+}
+/*المثال التالي يوضح الفرق بين أسلوب content-box و border-box حيث أن العنصر الذي يعتمد على border-box لتحديد حجمه سيظهر بحجم أصغر لأن مساحة الهامش الدخلي و الحدود الموضوعة له تم حسابها ضمن مساحة حجمه.
+
+مثال
+div {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid gray;
+}
+            
+.border-box {
+    box-sizing: border-box;
+}*/
+.hjr {
+
+    width: 200px;
+    padding: 20px;
+    border: 5px solid gray;
+}
+            
+.border-box {
+    box-sizing: border-box;
+}
+.centrar{
+        text-align:center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.o {
+
+    outline-style: solid;
+    outline-color: green;
+    
+}
+* {
+    outline: 1px solid red;
+}
+body {
+    color: gray;
+}
+h1 {
+    color: cadetblue;
+}
+.center {
+    text-align: center;
+}
+h1, p {
+    font-family: Tahoma;
+}
+h2 {
+    text-shadow: 2px 2px 5px blue;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+/* إذا لم يتم فتحه بعد */
+a:link {
+    color: green;
+}
+
+/* إذا تم فتحه من قبل */
+a:visited {
+    color: gray;
+}
+
+/* عند تم تمرير مؤشر الماوس فوقه */
+a:hover {
+    color: purple;
+}
+
+/* في الوقت الذي يتم فيه النقر عليه */
+a:active {
+    color: red;
+} 
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a {
+    display: inline-block;
+    color: white;
+    background-color: #0b5ed7;
+    border: 2px solid #0b5ed7;
+    border-radius: 4px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    border-color: #0b51d7;
+    background-color: #0b51d7;
+}
+            
+a .material-icons {
+    font-size: 24px;
+    vertical-align: bottom;
+}
+
+a:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+ul li::marker {
+    
+}
+ul {
+    margin: 0;
+    padding: 5px 10px;
+    list-style-type: disc;
+    list-style-position: inside;
+    background: deepskyblue;
+}
+
+ul li {
+    background: darkslateblue;
+    color: white;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+ul li::marker {
+    color: gold;
+}
+ul {
+    list-style-type:  \f006 ; /* رمز إظهار النجمة */
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+            
+ul li {
+    padding-left: 5px;
+    line-height: 26px;
+}
+            
+ul li::marker {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 14px;
+    color: gold;
+}
+ {
+    position: static;
+}
+ {
+    position: static;
+    top: 20px;
+    left: 30px;
+}
+.uyk {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* هنا قمنا بإزالة هوامش القائمة و تحديد عرضها و لون خلفيتها */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    background-color: #f1f1f1;
+}
+
+/* هنا قمنا بتحديد لون الروابط و إضافة هامش داخلي حولهم */
+li a {
+    display: block;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* هنا قمنا بجعل لون نص و خلفية الرابط يتغير عند تمرير الماوس فوقه */
+li a:hover {
+    color: white;
+    background-color: #444;
+}
+.active {
+    color: white;
+    background-color: darkcyan;
+}
+li a:hover:not(.active) {
+    color: white;
+    background-color: #444;
+}
+ul {
+    border: 1px solid #444;
+}
+            
+li {
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+/* هنا قمنا بإزالة هوامش القائمة و تحديد عرضها و لون خلفيتها */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #282a35;
+    overflow: hidden;
+}
+
+/* هنا قمنا بجعل العناصر تتدفق وراء بعدها البعض من الجهة اليسرى */
+li {
+    float: left;
+}
+
+/* هنا قمنا بتحديد لون الروابط و إضافة هامش داخلي حولهم */
+li a {
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* هنا قمنا بجعل لون خلفية الرابط يتغير عند تمرير الماوس فوقه */
+li a:hover {
+    background-color: black;
+}
+li {
+    border-right: 1px solid #444;
+}
+
+li:last-child {
+    border-right: none;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* جعلنا القائمة بالأساس مخفية */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* عند تمرير الماوس فوق أي جزء في القائمة سيتم إظهارها */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-btn {
+    background-color: #0b5ed7;
+}
+
+/*موقع الامن السيبراني*/
+.qqqw {
+    color: red;
+    text-align: center;
+    background-color: #999999;
+    
+
+}
+.vbn {
+    background-image: url('h');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+}
+input[type=text] {
+    background-image: url( search-icon.png );
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+   }
+   
+   p::after  {
+    content:  Done ;
+    display: inline-block;
+    background: lightseagreen;
+    color: white;
+    font-size: 13px;
+    padding: 2px 6px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+nav {
+    background-color: #333;
+    font-family: arial;
+    font-size: 14px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: #333;
+}
+
+nav a {
+    display: block;
+    padding: 0 15px;
+    color: white;
+    line-height: 45px;
+    text-decoration: none;
+}
+
+nav a:hover { 
+    background-color: cadetblue; 
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 45px;     
+}
+
+nav ul li:hover > ul {
+    display: inherit;
+}
+
+nav ul li:hover > a {
+    background-color: cadetblue; 
+}
+
+nav ul ul li {
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+    border: 1px solid #555;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -45px; 
+    left: 150px;
+}
+input {
+    background-image: url('٢');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+}
